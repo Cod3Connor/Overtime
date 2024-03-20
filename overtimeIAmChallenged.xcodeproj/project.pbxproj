@@ -14,6 +14,7 @@
 		237BA12D2BAB2F65005603B7 /* overtimeIAmChallengedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BA12C2BAB2F65005603B7 /* overtimeIAmChallengedTests.swift */; };
 		237BA1372BAB2F65005603B7 /* overtimeIAmChallengedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BA1362BAB2F65005603B7 /* overtimeIAmChallengedUITests.swift */; };
 		237BA1392BAB2F65005603B7 /* overtimeIAmChallengedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BA1382BAB2F65005603B7 /* overtimeIAmChallengedUITestsLaunchTests.swift */; };
+		237BA1462BAB3894005603B7 /* payCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237BA1452BAB3894005603B7 /* payCalculation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		237BA1322BAB2F65005603B7 /* overtimeIAmChallengedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = overtimeIAmChallengedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237BA1362BAB2F65005603B7 /* overtimeIAmChallengedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overtimeIAmChallengedUITests.swift; sourceTree = "<group>"; };
 		237BA1382BAB2F65005603B7 /* overtimeIAmChallengedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = overtimeIAmChallengedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		237BA1452BAB3894005603B7 /* payCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payCalculation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		237BA10F2BAB2F63005603B7 = {
 			isa = PBXGroup;
 			children = (
+				237BA1452BAB3894005603B7 /* payCalculation.swift */,
 				237BA11A2BAB2F63005603B7 /* overtimeIAmChallenged */,
 				237BA12B2BAB2F65005603B7 /* overtimeIAmChallengedTests */,
 				237BA1352BAB2F65005603B7 /* overtimeIAmChallengedUITests */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237BA1462BAB3894005603B7 /* payCalculation.swift in Sources */,
 				237BA11E2BAB2F63005603B7 /* ContentView.swift in Sources */,
 				237BA11C2BAB2F63005603B7 /* overtimeIAmChallengedApp.swift in Sources */,
 			);
