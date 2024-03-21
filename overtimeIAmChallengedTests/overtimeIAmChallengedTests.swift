@@ -4,7 +4,7 @@ import XCTest
 final class overtimeIAmChallengedTests: XCTestCase {
 
     func testPayCalculation() throws {
-        let calculator = PayCalculation()
+        let calculator = PayCalculation(baseRate: 25.0)
 
         var result = calculator.calculateWage(withBasePay: 25, andHours: 0)
         XCTAssert(result == 0, "Expected wage for 0 hours: 0, got \(result)")
@@ -33,5 +33,6 @@ final class overtimeIAmChallengedTests: XCTestCase {
 
         result = calculator.calculateWage(withBasePay: 25, andHours: 81)
         XCTAssert(result == 1000 + 25 * 1.5 * 41, "Expected wage for 81 hours: \(1000 + 25 * 1.5 * 41), got \(result)")
+        print(result)
     }
 }
